@@ -56,6 +56,7 @@ git restore <file>
 #### `git commit`: Ghi lại các thay đổi đã được staged vào repo với một msg tương ứng.
 ```
 git commit -m "feat: added server"
+git commit --amend -m "feat: add server"  # Ghi đè lên commit cuối cùng 
 ```
 
 #### `git push`: Đẩy các commit từ local lên remote repo.
